@@ -1,0 +1,486 @@
+{
+	"name": "Big Ten",
+	"abbrName": "B1G",
+	"teams": [
+		{
+			"name": "Illinois",
+			"nonConfWins": 3
+		},
+		{
+			"name": "Indiana",
+			"nonConfWins": 3
+		},
+		{
+			"name": "Iowa",
+			"nonConfWins": 2
+		},
+		{
+			"name": "Maryland",
+			"nonConfWins": 3
+		},
+		{
+			"name": "Michigan",
+			"nonConfWins": 2
+		},
+		{
+			"name": "Michigan State",
+			"nonConfWins": 2
+		},
+		{
+			"name": "Minnesota",
+			"nonConfWins": 2
+		},
+		{
+			"name": "Nebraska",
+			"nonConfWins": 3
+		},
+		{
+			"name": "Northwestern",
+			"nonConfWins": 2
+		},
+		{
+			"name": "Ohio State",
+			"nonConfWins": 3
+		},
+		{
+			"name": "Oregon",
+			"nonConfWins": 3
+		},
+		{
+			"name": "Penn State",
+			"nonConfWins": 3
+		},
+		{
+			"name": "Purdue",
+			"nonConfWins": 1
+		},
+		{
+			"name": "Rutgers",
+			"nonConfWins": 3
+		},
+		{
+			"name": "UCLA",
+			"nonConfWins": 1
+		},
+		{
+			"name": "USC",
+			"nonConfWins": 2
+		},
+		{
+			"name": "Washington",
+			"nonConfWins": 2
+		},
+		{
+			"name": "Wisconsin",
+			"nonConfWins": 2
+		}
+	],
+	"games": [
+		{
+			"home": "Maryland",
+			"away": "Michigan State",
+			"winner": "Michigan State"
+		},
+		{
+			"home": "UCLA",
+			"away": "Indiana",
+			"winner": "Indiana"
+		},
+		{
+			"home": "Nebraska",
+			"away": "Illinois",
+			"winner": "Illinois"
+		},
+		{
+			"home": "Michigan",
+			"away": "USC",
+			"winner": "Michigan"
+		},
+		{
+			"home": "Washington",
+			"away": "Northwestern",
+			"winner": "Washington"
+		},
+		{
+			"home": "Minnesota",
+			"away": "Iowa",
+			"winner": "Iowa"
+		},
+		{
+			"home": "Rutgers",
+			"away": "Washington",
+			"winner": "Rutgers"
+		},
+		{
+			"home": "Indiana",
+			"away": "Maryland",
+			"winner": "Indiana"
+		},
+		{
+			"home": "Purdue",
+			"away": "Nebraska",
+			"winner": "Nebraska"
+		},
+		{
+			"home": "Michigan",
+			"away": "Minnesota",
+			"winner": "Michigan"
+		},
+		{
+			"home": "USC",
+			"away": "Wisconsin",
+			"winner": "USC"
+		},
+		{
+			"home": "Michigan State",
+			"away": "Ohio State",
+			"winner": "Ohio State"
+		},
+		{
+			"home": "Penn State",
+			"away": "Illinois",
+			"winner": "Penn State"
+		},
+		{
+			"home": "UCLA",
+			"away": "Oregon",
+			"winner": "Oregon"
+		},
+		{
+			"home": "Oregon",
+			"away": "Michigan State",
+			"winner": "Oregon"
+		},
+		{
+			"home": "Penn State",
+			"away": "UCLA",
+			"winner": "Penn State"
+		},
+		{
+			"home": "Wisconsin",
+			"away": "Purdue",
+			"winner": "Wisconsin"
+		},
+		{
+			"home": "Northwestern",
+			"away": "Indiana",
+			"winner": "Indiana"
+		},
+		{
+			"home": "Ohio State",
+			"away": "Iowa",
+			"winner": "Ohio State"
+		},
+		{
+			"home": "Nebraska",
+			"away": "Rutgers",
+			"winner": "Nebraska"
+		},
+		{
+			"home": "Minnesota",
+			"away": "USC",
+			"winner": "Minnesota"
+		},
+		{
+			"home": "Washington",
+			"away": "Michigan",
+			"winner": "Washington"
+		},
+		{
+			"home": "Maryland",
+			"away": "Northwestern",
+			"winner": "Northwestern"
+		},
+		{
+			"home": "Iowa",
+			"away": "Washington",
+			"winner": "Iowa"
+		},
+		{
+			"home": "Rutgers",
+			"away": "Wisconsin",
+			"winner": "Wisconsin"
+		},
+		{
+			"home": "Illinois",
+			"away": "Purdue",
+			"winner": "Illinois"
+		},
+		{
+			"home": "USC",
+			"away": "Penn State",
+			"winner": "Penn State"
+		},
+		{
+			"home": "Oregon",
+			"away": "Ohio State",
+			"winner": "Oregon"
+		},
+		{
+			"home": "UCLA",
+			"away": "Minnesota",
+			"winner": "Minnesota"
+		},
+		{
+			"home": "Purdue",
+			"away": "Oregon",
+			"winner": null
+		},
+		{
+			"home": "Rutgers",
+			"away": "UCLA",
+			"winner": null
+		},
+		{
+			"home": "Northwestern",
+			"away": "Wisconsin",
+			"winner": null
+		},
+		{
+			"home": "Indiana",
+			"away": "Nebraska",
+			"winner": null
+		},
+		{
+			"home": "Illinois",
+			"away": "Michigan",
+			"winner": null
+		},
+		{
+			"home": "Maryland",
+			"away": "USC",
+			"winner": null
+		},
+		{
+			"home": "Michigan State",
+			"away": "Iowa",
+			"winner": null
+		},
+		{
+			"home": "USC",
+			"away": "Rutgers",
+			"winner": null
+		},
+		{
+			"home": "Ohio State",
+			"away": "Nebraska",
+			"winner": null
+		},
+		{
+			"home": "Indiana",
+			"away": "Washington",
+			"winner": null
+		},
+		{
+			"home": "Oregon",
+			"away": "Illinois",
+			"winner": null
+		},
+		{
+			"home": "Minnesota",
+			"away": "Maryland",
+			"winner": null
+		},
+		{
+			"home": "Iowa",
+			"away": "Northwestern",
+			"winner": null
+		},
+		{
+			"home": "Michigan",
+			"away": "Michigan State",
+			"winner": null
+		},
+		{
+			"home": "Wisconsin",
+			"away": "Penn State",
+			"winner": null
+		},
+		{
+			"home": "Penn State",
+			"away": "Ohio State",
+			"winner": null
+		},
+		{
+			"home": "Michigan",
+			"away": "Oregon",
+			"winner": null
+		},
+		{
+			"home": "Washington",
+			"away": "USC",
+			"winner": null
+		},
+		{
+			"home": "Nebraska",
+			"away": "UCLA",
+			"winner": null
+		},
+		{
+			"home": "Illinois",
+			"away": "Minnesota",
+			"winner": null
+		},
+		{
+			"home": "Michigan State",
+			"away": "Indiana",
+			"winner": null
+		},
+		{
+			"home": "Iowa",
+			"away": "Wisconsin",
+			"winner": null
+		},
+		{
+			"home": "Purdue",
+			"away": "Northwestern",
+			"winner": null
+		},
+		{
+			"home": "UCLA",
+			"away": "Iowa",
+			"winner": null
+		},
+		{
+			"home": "Rutgers",
+			"away": "Minnesota",
+			"winner": null
+		},
+		{
+			"home": "Ohio State",
+			"away": "Purdue",
+			"winner": null
+		},
+		{
+			"home": "Penn State",
+			"away": "Washington",
+			"winner": null
+		},
+		{
+			"home": "Indiana",
+			"away": "Michigan",
+			"winner": null
+		},
+		{
+			"home": "Oregon",
+			"away": "Maryland",
+			"winner": null
+		},
+		{
+			"home": "Washington",
+			"away": "UCLA",
+			"winner": null
+		},
+		{
+			"home": "Illinois",
+			"away": "Michigan State",
+			"winner": null
+		},
+		{
+			"home": "USC",
+			"away": "Nebraska",
+			"winner": null
+		},
+		{
+			"home": "Purdue",
+			"away": "Penn State",
+			"winner": null
+		},
+		{
+			"home": "Wisconsin",
+			"away": "Oregon",
+			"winner": null
+		},
+		{
+			"home": "Northwestern",
+			"away": "Ohio State",
+			"winner": null
+		},
+		{
+			"home": "Maryland",
+			"away": "Rutgers",
+			"winner": null
+		},
+		{
+			"home": "Michigan State",
+			"away": "Purdue",
+			"winner": null
+		},
+		{
+			"home": "Rutgers",
+			"away": "Illinois",
+			"winner": null
+		},
+		{
+			"home": "Michigan",
+			"away": "Northwestern",
+			"winner": null
+		},
+		{
+			"home": "Minnesota",
+			"away": "Penn State",
+			"winner": null
+		},
+		{
+			"home": "Nebraska",
+			"away": "Wisconsin",
+			"winner": null
+		},
+		{
+			"home": "UCLA",
+			"away": "USC",
+			"winner": null
+		},
+		{
+			"home": "Maryland",
+			"away": "Iowa",
+			"winner": null
+		},
+		{
+			"home": "Ohio State",
+			"away": "Indiana",
+			"winner": null
+		},
+		{
+			"home": "Wisconsin",
+			"away": "Minnesota",
+			"winner": null
+		},
+		{
+			"home": "Iowa",
+			"away": "Nebraska",
+			"winner": null
+		},
+		{
+			"home": "Oregon",
+			"away": "Washington",
+			"winner": null
+		},
+		{
+			"home": "Penn State",
+			"away": "Maryland",
+			"winner": null
+		},
+		{
+			"home": "Northwestern",
+			"away": "Illinois",
+			"winner": null
+		},
+		{
+			"home": "Indiana",
+			"away": "Purdue",
+			"winner": null
+		},
+		{
+			"home": "Michigan State",
+			"away": "Rutgers",
+			"winner": null
+		},
+		{
+			"home": "Ohio State",
+			"away": "Michigan",
+			"winner": null
+		}
+	],
+	"update": 1729055257
+}
