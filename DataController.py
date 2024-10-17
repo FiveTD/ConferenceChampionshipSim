@@ -11,7 +11,8 @@ API_URL = "https://api.collegefootballdata.com"
 YEAR = "2024"
 
 loadedConferences = {}
-focusedConference = {}
+focusedConference: Conference = None
+standingsResults = {}
 
 # Returns a loaded conference by name, if it exists; else returns None
 def getConference(abbrName: str) -> Conference | None:
@@ -122,3 +123,18 @@ def updateStandings(conference: Conference) -> None:
                 home.nonConfWins += int(home is winner)
             if away is not None:
                 away.nonConfWins += int(away is winner)
+
+# At time of current development (Week 8), there are too many games remaining to simulate before the end of a season
+# Current estimates:
+# - SEC: 35 years
+# - ACC: 279 years
+# - Big 12: 8926 years
+# - Big Ten: 142808 years
+# TODO: develop after setgame functionality is complete
+def fullMapStandings() -> None:
+    numGamesRemaining = len(focusedConference.getUnplayedGames())
+    possibleOutcomes = 2 ** numGamesRemaining
+    yearsToComplete = possibleOutcomes / (1000 * 31536000) # Number of seconds in a year at a generous estimate of 1000 sims/second
+    
+    print(f"A full map would currently take approximately {yearsToComplete:.2f} years to complete")
+    print("Check back later :)")

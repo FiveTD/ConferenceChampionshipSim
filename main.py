@@ -42,8 +42,13 @@ COMMANDS:
 'quit': ""
            }
 
+SIMULATION_COMPLETE = "Simulation complete"
+
 def UNRECOGNIZED_COMMAND(command: str) -> str:
     return f"Unrecognized command: {command}"
+
+def BAD_ARGUMENT(arg: str) -> str:
+    return f"Error processing argument: {arg}"
 
 def UNSUPPORTED_CONFERENCE(conf: str | list[str]) -> str:
     if len(conf) == 1: conf = conf[0] # Converts list with one item to single str
@@ -76,6 +81,10 @@ def LOADED_CONFERENCE(conf: str, update: int = None) -> str:
 
 def FOCUSED_CONFERENCE(conf: str) -> str:
     return f"Focused conference: {conf}"
+
+def OUTCOMES_TO_SIMULATE(num: int) -> str:
+    return f"Outcomes to simulate: {num}\n" + \
+        "Continue? (y/n)"
         
 # === HELPERS ===
 
@@ -156,15 +165,34 @@ def focus(*args: str, log: bool = True):
             DataController.focusedConference = conf
             if log: print(FOCUSED_CONFERENCE(abbrName))
             
-def fullmap(*args: str, log: bool = True):
+def setgame(*args: str, log: bool = True):
     pass
 
+# Development paused until setgame complete, see: DataController.fullMapStandings()
+def fullmap(*args: str, log: bool = True):
+    numGamesRemaining = len(DataController.focusedConference.getUnplayedGames())
+    possibleOutcomes = 2 ** numGamesRemaining
+    
+    print(OUTCOMES_TO_SIMULATE(possibleOutcomes))
+    cont = input(INPUT_CURSOR)
+    if cont[0].lower() == 'n': return
+    
+    DataController.fullMapStandings()
+    if log: print(SIMULATION_COMPLETE)
+
 def simulate(*args: str, log: bool = True):
-    pass
+    if args:
+        try:
+            numSims = int(args[0])
+        except:
+            print(BAD_ARGUMENT(args[0]))
+            return
+    else:
+        numSims = 100000
     
 def quit(): pass
 
-commands = [help, update, save, load, focus, fullmap, simulate, quit]
+commands = [help, update, save, load, focus, setgame, fullmap, simulate, quit]
 
 # === CONTROL FLOW ===
 
